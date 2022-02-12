@@ -15,7 +15,7 @@ public class epam {
         return a+b;
     }
 
-    //thirdPart
+    //thirdPartgit
     public int sum(int a, int b){
         return a+b;
     }
