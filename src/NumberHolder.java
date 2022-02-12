@@ -10,7 +10,7 @@ class concatenate{
     }
 }
 //2.	Design such Java class with name Computer and such properties as:
-class Computer{ 
+class Computer{
     private String Brand;
     private String ScreenSize;
     private int NumberOfCores;
