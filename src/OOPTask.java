@@ -12,6 +12,10 @@ public class OOPTask {
     public double getLengthOf3DVectors(double x, double y, double z){
         return Math.sqrt(Math.pow(cordenateX,2)+Math.pow(cordenateY,2)+Math.pow(cordenateZ,2));
     }
+    public double getScalarMultiplication(double x, double y, double z){
+        return;
+    }
+
     static Vector<String> vector;
     static void getRandomElements()
     {
@@ -24,14 +28,10 @@ public class OOPTask {
     }
     public static void main(String[] args)
     {
-        vector = new Vector<String>();
-        vector.add("Welcome");
-        vector.add("To");
-        vector.add("Geeks");
-        vector.add("For");
-        vector.add("Geeks");
-        getRandomElements();
+
     }
+
+
 }
 
 
