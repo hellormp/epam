@@ -9,8 +9,13 @@ public class OOPTask {
         cordenateY = y;
         cordenateZ = z;
     }
-    public double getLengthOf3DVectors(double x, double y, double z){
+    public  double getLengthOf3DVectors(double x, double y, double z){
         return Math.sqrt(Math.pow(cordenateX,2)+Math.pow(cordenateY,2)+Math.pow(cordenateZ,2));
+    }
+    public OOPTask1(double x, double y, double z){
+        cordenateX = x;
+        cordenateY = y;
+        cordenateZ = z;
     }
     public double getScalarMultiplication(double x, double y, double z){
         return;
