@@ -17,7 +17,7 @@ class ScalarMultiplication extends OOPTask {
     private double cordenateY2;
     private double cordenateZ2;
 
-
+ //
     public void Cordinator(double x1, double y1, double z1, double x2, double y2, double z2){
         this.cordenateX1 = x1;
         this.cordenateY1 = y1;
