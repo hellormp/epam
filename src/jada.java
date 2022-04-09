@@ -34,3 +34,22 @@ class Human{
         this.height = height;
     }
 }
+
+
+class Persone{
+    int brother;
+    int sister;
+
+    Persone(int brother,int sister){
+        this.brother = brother;
+        this.sister = sister;
+
+    }
+    Persone(int brother,int sister,int sea){
+        this.brother = brother;
+        this.sister = sister;
+
+
+    }
+
+}
