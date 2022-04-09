@@ -32,7 +32,7 @@ class ScalarMultiplication extends OOPTask {
         this.cordenateY = y;
         this.cordenateZ = z;
     }
-    public  double getLengthOf3DVectors(double x, double y, double z){
+    public double getLengthOf3DVectors(double x, double y, double z){
         return Math.sqrt(Math.pow(cordenateX,2)+Math.pow(cordenateY,2)+Math.pow(cordenateZ,2));
     }
 
@@ -52,7 +52,7 @@ class ScalarMultiplication extends OOPTask {
     }
     public static void main(String[] args)
     {
-
+        getRandomElements();
     }
 
 
