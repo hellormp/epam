@@ -8,8 +8,13 @@ public class OOPTask implements Shape {
     private double cordenateY;
     private double cordenateZ;
 
+    @Override
+    public void getSquare() {
 
-class ScalarMultiplication extends OOPTask {
+    }
+
+
+    class ScalarMultiplication extends OOPTask {
     private double cordenateX1;
     private double cordenateY1;
     private double cordenateZ1;
@@ -53,13 +58,10 @@ class ScalarMultiplication extends OOPTask {
     public static void main(String[] args)
     {
         getRandomElements();
-    }
-
-
-    @Override
-    public void getSquare() {
 
     }
+
+
 }
 
 
